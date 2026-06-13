@@ -1,0 +1,9 @@
+.profile-card, .stats-card { display: flex; align-items: center; gap: 24px; padding: 32px; border-radius: 30px; background: #fff; box-shadow: 0 12px 30px rgba(116, 89, 72, .08); }
+.avatar { display: flex; align-items: center; justify-content: center; width: 116px; height: 116px; border-radius: 58px; background: #ffe5ec; color: #e88fa3; font-size: 54px; }
+.nickname, .profile-desc, .stat-num, .stat-label { display: block; }
+.nickname { font-size: 34px; font-weight: 700; }
+.profile-desc, .stat-label { margin-top: 8px; color: #a59890; font-size: 25px; }
+.stats-card { justify-content: space-around; margin-top: 24px; text-align: center; }
+.stat-num { font-size: 42px; font-weight: 700; color: #e88fa3; }
+.stat-num.small { max-width: 300px; font-size: 28px; }
+.clear-button { margin-top: 34px; }

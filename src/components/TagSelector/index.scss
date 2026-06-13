@@ -1,0 +1,3 @@
+.tag-row { display: flex; flex-wrap: wrap; gap: 16px; }
+.tag-pill { padding: 12px 22px; border-radius: 18px; background: #fff; color: #8d7d74; font-size: 25px; border: 1px solid #f1ded2; }
+.tag-pill.active { background: #fff0f4; color: #df7d96; border-color: #efadc0; }
